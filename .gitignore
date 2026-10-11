@@ -1,0 +1,38 @@
+# Environments and Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+!.env.example
+
+# Large Models, Checkpoints, LoRAs
+*.safetensors
+*.ckpt
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# ComfyUI core, outputs, cache
+ComfyUI/
+models/
+output/
+temp/
+input/
+
+# External repos & submodules
+story-to-handdrawn-video/
+
+# Node / Remotion
+node_modules/
+.remotion/
+out/
+.cache/
+
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
